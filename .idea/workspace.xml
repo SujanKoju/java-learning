@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c31211d9-4e5c-43d6-a8b8-f9c058b47b91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guesstheno/src/main/java/com/game/GuessingGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guesstheno/src/main/java/GuessingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/guesstheno/src/test/java/com/citytech/demo/GuessingGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guesstheno/src/test/java/com/citytech/demo/GuessingGame.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/guesstheno/target/" />
@@ -16,12 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/guesstheno/src/test/java/com/citytech/demo/GuessingGame.java">
+        <entry file="file://$PROJECT_DIR$/guesstheno/src/main/java/com/game/GuessingGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="35" column="17" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="17" />
+            <state relative-caret-position="48">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -43,22 +42,23 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/GuessingGame.java" />
         <option value="$PROJECT_DIR$/guesstheno/src/test/java/com/citytech/demo/GuessingGame.java" />
+        <option value="$PROJECT_DIR$/guesstheno/src/main/com/game/GuessingGame.java" />
+        <option value="$PROJECT_DIR$/guesstheno/src/main/java/com/game/GuessingGame.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="91" />
-    <option name="y" value="324" />
+    <option name="x" value="-383" />
+    <option name="y" value="13" />
     <option name="width" value="1382" />
     <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -66,10 +66,61 @@
               <item name="java-learning" type="58d84e3e:PackageViewProjectNode" />
               <item name="guesstheno" type="616d4139:PackageViewModuleNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
             <path>
-              <item name="java-learning" type="58d84e3e:PackageViewProjectNode" />
-              <item name="guesstheno" type="616d4139:PackageViewModuleNode" />
-              <item name="com.citytech.demo" type="1f31426a:PackageElementNode" />
+              <item name="java-learning" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="guesstheno" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="guesstheno" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="guesstheno" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="guesstheno" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="guesstheno" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="guesstheno" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="guesstheno" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="guesstheno" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="guesstheno" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="guesstheno" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="guesstheno" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="guesstheno" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="guesstheno" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="game" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -82,6 +133,24 @@
               <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-learning" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="guesstheno" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="guesstheno" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="guesstheno" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -91,7 +160,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553687261834" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553688216962" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -102,6 +171,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="src.main.com.game" />
       <recent name="com.citytech.demo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -161,16 +231,18 @@
       <updated>1553675581548</updated>
       <workItem from="1553675583084" duration="1856000" />
       <workItem from="1553685798683" duration="1498000" />
+      <workItem from="1553687372258" duration="833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3354000" />
+    <option name="totallyTimeSpent" value="4187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -187,7 +259,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.6988543" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.73106647" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -211,17 +283,25 @@
     <entry file="file://$PROJECT_DIR$/guesstheno/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/guesstheno/src/test/java/GuessingGame.class">
+    <entry file="file://$PROJECT_DIR$/guesstheno/src/test/java/GuessingGame.class" />
+    <entry file="file://$PROJECT_DIR$/guesstheno/src/test/java/com/citytech/demo/GuessingGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="49" lean-forward="true" selection-start-line="4" selection-end-line="49" />
+        <state relative-caret-position="275">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guesstheno/src/test/java/com/citytech/demo/GuessingGame.java">
+    <entry file="file://$PROJECT_DIR$/guesstheno/src/main/com/game/GuessingGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="17" />
+        <state relative-caret-position="72">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guesstheno/src/main/java/com/game/GuessingGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -277,7 +357,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>java-learning</last-edited>
+          <last-edited>guesstheno</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

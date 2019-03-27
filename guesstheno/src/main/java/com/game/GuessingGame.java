@@ -1,10 +1,9 @@
-package com.citytech.demo;
+package com.game;
 
 import java.util.Scanner;
 
 public class GuessingGame {
-    public void startGuessingGame()
-    {
+    public void startGuessingGame() {
         int randomNo = (int) (Math.random() * 100) + 1;
         boolean hasWon = false;
 
@@ -29,11 +28,11 @@ public class GuessingGame {
             System.out.println("Correct Guess ..... YOU WIN .......");
         } else {
             System.out.println("GAME OVER.....YOU LOSE.....");
-            System.out.println("The No was "+randomNo);
+            System.out.println("The No was " + randomNo);
         }
     }
 
-    public static void main(String []args) {
+    public static void main(String[] args) {
         GuessingGame game = new GuessingGame();
         game.startGuessingGame();
 
