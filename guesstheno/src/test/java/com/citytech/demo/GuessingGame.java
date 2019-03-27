@@ -1,3 +1,5 @@
+package com.citytech.demo;
+
 import java.util.Scanner;
 
 public class GuessingGame {
