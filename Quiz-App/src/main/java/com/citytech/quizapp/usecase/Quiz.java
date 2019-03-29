@@ -1,5 +1,6 @@
 package com.citytech.quizapp.usecase;
 
+import com.citytech.quizapp.adapter.FileToQuestionAdapter;
 import com.citytech.quizapp.entities.Admin;
 import com.citytech.quizapp.entities.Player;
 import com.citytech.quizapp.entities.Question;
@@ -22,24 +23,8 @@ public class Quiz {
     }
 
     public void loadQuestionFromFile() {
-        File quizQuesFile = new File("E:\\java-learning\\Quiz-App\\QuizQuestions.txt");
-        Scanner scannerForFile = null;
-        try {
-            scannerForFile = new Scanner(quizQuesFile);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        while (scannerForFile.hasNextLine()) {
-            String[] quesWithCorrOption = scannerForFile.nextLine().split(":");
-            Question question = new Question();
-            question.setQuestion(quesWithCorrOption[0]);
-            question.setOptionA(quesWithCorrOption[1]);
-            question.setOptionB(quesWithCorrOption[2]);
-            question.setOptionC(quesWithCorrOption[3]);
-            question.setOptionD(quesWithCorrOption[4]);
-            question.setCorrectOption(quesWithCorrOption[5]);
-            questions.add(question);
-        }
+        FileToQuestionAdapter fileToQuestionAdapter = new FileToQuestionAdapter();
+        questions = fileToQuestionAdapter.fileToQuestionAdapter("E:\\java-learning\\Quiz-App\\QuizQuestions.txt");
     }
 
     public void startTheApp() {
