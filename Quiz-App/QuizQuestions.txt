@@ -1,0 +1,9 @@
+What is the name of your company ?:CityHub:CityTennis:CityRemit:CityTech:D
+What is the last name of CityTech Hero ?:Malla:koju:Bk:Dhoju:A
+When will CityTournament will Held ?:next month:next week:next year:malai k tha:D
+Who is Best in TT ?:sujan:Anish:Sagar:Sandesh:C
+I ..... tennis every Sunday morning.?:playing:play:am Playing:am play:B
+What is height of M.Everest ?:8846:8847:8848:8849:C
+Which unit is used as a measure of weight?:grams:pints:newton:meter:A
+Which one is not OOP concept ?:Inheritance:polymerphism:encapsulation:file:d
+Which one is not moniter producing company ?:sony:dell:lg:nokia:d

@@ -1,0 +1,7 @@
+com\citytech\quizapp\entities\Question.class
+com\citytech\quizapp\usecase\Quiz.class
+com\citytech\quizapp\entities\User.class
+com\citytech\quizapp\usecase\Main.class
+com\citytech\quizapp\entities\Player.class
+com\citytech\quizapp\utils\PrivilageEnum.class
+com\citytech\quizapp\entities\Admin.class

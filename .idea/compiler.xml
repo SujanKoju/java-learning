@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="guesstheno" />
         <module name="javalearning" />
+        <module name="QuizApp" />
       </profile>
     </annotationProcessing>
   </component>
