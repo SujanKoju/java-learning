@@ -1,0 +1,6 @@
+package examples.linkedlist;
+
+public class Node {
+    int data;
+    Node nextNode;
+}

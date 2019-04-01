@@ -24,7 +24,7 @@ public class Quiz {
 
     public void loadQuestionFromFile() {
         FileToQuestionAdapter fileToQuestionAdapter = new FileToQuestionAdapter();
-        questions = fileToQuestionAdapter.fileToQuestionAdapter("E:\\java-learning\\Quiz-App\\QuizQuestions.txt");
+        questions = fileToQuestionAdapter.fileToQuestionAdapter();
     }
 
     public void startTheApp() {

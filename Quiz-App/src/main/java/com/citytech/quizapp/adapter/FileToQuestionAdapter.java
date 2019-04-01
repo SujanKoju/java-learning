@@ -10,9 +10,9 @@ import java.util.Scanner;
 
 public class FileToQuestionAdapter {
 
-    public List<Question> fileToQuestionAdapter(String filePath) {
+    public List<Question> fileToQuestionAdapter() {
         List<Question> questions = new ArrayList<Question>();
-        File quizQuesFile = new File(filePath);
+        File quizQuesFile = new File("E:\\java-learning\\Quiz-App\\QuizQuestions.txt");
         Scanner scannerForFile = null;
         try {
             scannerForFile = new Scanner(quizQuesFile);
