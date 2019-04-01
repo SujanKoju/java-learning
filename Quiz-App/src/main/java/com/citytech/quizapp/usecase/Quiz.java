@@ -12,7 +12,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Quiz {
-
     List<Question> questions;
     Scanner scannerForInt = new Scanner(System.in);
     Scanner scannerForString = new Scanner(System.in);
